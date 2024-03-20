@@ -279,6 +279,7 @@ function createCard(author, gameName, url) {
     const link = document.createElement('a');
     link.classList.add('card-link');
     link.href = url;
+    link.target = "_blank";
     link.textContent = 'URL: ' + url;
 
     cardBody.appendChild(title);
