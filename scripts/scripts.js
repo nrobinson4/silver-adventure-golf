@@ -304,3 +304,5 @@ function renderCards(data) {
 // Call the render function
 renderCards(data);
 
+
+

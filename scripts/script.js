@@ -303,3 +303,20 @@ function renderCards(data) {
 
 // Call the render function
 renderCards(gameData);
+
+var images = ['https://images.hdqwalls.com/download/loki-arts-c5-3840x2160.jpg', 
+                'https://wallpapercave.com/wp/wp6511666.jpg', 
+                'https://images.hdqwalls.com/download/2020-spider-man-4k-m0-3840x2400.jpg',
+            'https://wallpapercave.com/wp/wp4428925.jpg',
+            'https://wallpapercave.com/wp/wp6564493.jpg',
+            'https://images7.alphacoders.com/906/906163.jpg']; // Add more images
+var currentIndex = 0;
+var body = document.querySelector('body');
+
+function changeBackground() {
+    body.style.backgroundImage = 'url(' + images[currentIndex] + ')';
+    currentIndex = (currentIndex + 1) % images.length;
+}
+
+// Change background every 5 seconds (5000 milliseconds)
+setInterval(changeBackground, 5000);
