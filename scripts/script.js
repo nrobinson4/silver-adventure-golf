@@ -2,12 +2,12 @@ const gameData = [
   {
       "Author": "devan4264",
       "Game Name": "improved-octo-chainsaw-charlie",
-      "URL to game repo": "https://github.com/devan4264/improved-octo-chainsaw-charlie"
+      "URL to game repo": "https://devan4264.github.io/improved-octo-chainsaw-charlie/"
   },
   {
       "Author": "devan4264",
       "Game Name": "verbose-guacamole-delta",
-      "URL to game repo": "https://github.com/devan4264/verbose-guacamole-delta"
+      "URL to game repo": "https://devan4264.github.io/verbose-guacamole-delta/"
   },
   {
       "Author": "Mackenzie Thompson",
@@ -35,7 +35,7 @@ const gameData = [
       "URL to game repo": "https://github.com/babayaga1013/charlie-lab-cis376"
   },
   {
-      "Author": "",
+      "Author": "Kalani Sorensen",
       "Game Name": "reimagined-couscous–delta",
       "URL to game repo": "https://github.com/babayaga1013/reimagined-couscous--delta"
   },
