@@ -280,7 +280,7 @@ function createCard(author, gameName, url) {
   link.classList.add('card-link');
   link.href = url;
   link.target = "_blank";
-  link.textContent = 'URL: ' + url;
+  link.textContent = "Click to Play";
 
   cardBody.appendChild(title);
   cardBody.appendChild(subtitle);
